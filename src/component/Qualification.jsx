@@ -6,7 +6,7 @@ const Qualification = () => {
 
 
     return (
-        <section className='bg-pink-400/40 max-w-[1440px] mx-auto  my-12 py-12 rounded-md '>
+        <section id='qualification' className='bg-pink-400/40 max-w-[1440px] mx-auto  my-12 py-12 rounded-md '>
             <h3 className='text-xl md:text-center text-indigo-800 font-semibold px-2  mb-4 md:text-3xl' >My Qualification</h3>
             <div>
 
@@ -19,20 +19,18 @@ const Qualification = () => {
 
                         {/* myLanguages  */}
 
-
-
-                        <div className='flex  flex-col space-y-3 text-neutral-600 font-bold'>
+                        <div className='flex  flex-col  space-y-3 text-neutral-600 font-bold'>
 
                             {
-                                languageData.map(tech => {
+                                languageData.map((tech,i) => {
                                     return (
                                         <>
-                                            <div>
+                                            <div key={tech}>
                                                 <p>{tech.lang}</p>
 
-                                                <div class="flex-start flex h-4 w-full overflow-hidden rounded border-2 border-gray-400 font-sans  text-xs font-medium">
+                                                <div className="flex-start flex h-4 w-full overflow-hidden rounded border-2 border-gray-400 font-sans  text-xs font-medium">
                                                     <div
-                                                        class="flex h-full items-baseline justify-center overflow-hidden break-all   text-indigo-800"
+                                                        className="flex h-full items-baseline justify-center overflow-hidden break-all   text-indigo-800"
                                                         style={{ width: tech.complited, background: tech.bgColor }}
                                                     >
 
@@ -42,13 +40,9 @@ const Qualification = () => {
                                         </>
                                     )
                                 })
-                            }
-
-
-
-
+                            } 
                         </div>
-
+                        </div>
 
 
                         {/* left  */}
@@ -68,7 +62,7 @@ const Qualification = () => {
 
                         </div>
 
-                    </div>
+                  
                 </div>
 </div>
         </section>

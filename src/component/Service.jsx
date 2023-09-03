@@ -2,7 +2,7 @@ import React from 'react'
 import serviceImg from '../img/headerImg.svg'
 const Service = () => {
   return (
-    <section className='bg-blue-600/30  max-w-[1440px] mx-auto   justify-between flex flex-col  md:flex-row px-5 rounded-md my-12 py-8 '>
+    <section id='service' className='bg-blue-600/30  max-w-[1440px] mx-auto   justify-between flex flex-col  md:flex-row px-5 rounded-md my-12 py-8 '>
     
     {/* info */}
    <div className='  py-4 px-2' >
