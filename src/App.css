@@ -3,4 +3,8 @@
 @tailwind components;
 @tailwind utilities;
 
-
+@layer base {
+    section{
+        @apply  max-w-[1440px] mx-auto px-5  my-16 py-16 
+    }
+}
