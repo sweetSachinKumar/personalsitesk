@@ -6,6 +6,8 @@ import Service from '../component/Service'
 import Qualification from '../component/Qualification'
 import Projects from '../component/Projects'
 import Footer from '../component/Footer'
+import ProjectMERN from '../component/ProjectMERN'
+import ProjectBackend from '../component/ProjectBackend'
 const Home = () => {
   return (
     <div>
@@ -15,6 +17,8 @@ const Home = () => {
      <Service/>
      <Qualification/>
      <Projects/>
+     <ProjectMERN/>
+     <ProjectBackend/>
      <Footer/>
     </div>
   )

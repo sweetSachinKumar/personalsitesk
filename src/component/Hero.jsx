@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 
 import { GoDownload } from 'react-icons/go'
-import myCv from '../assets/myCV.pdf'
+import myCv from '../assets/Resume.pdf'
 import HeaderImg from '../img/img2.svg'
 import 'aos/dist/aos.css'
 import Aos from 'aos'

@@ -55,6 +55,8 @@ useEffect(()=>{
                         <div className='h-full w-full mt-4 md:mt-0 md:pl-8 text-neutral-800  dark:text-slate-200'>
                             <h5 className='text-xl mt-3 mb-1   md:text-2xl text-blue-700  dark:text-yellow-200'>Skills </h5>
                             <p  data-aos-anchor-placement="bottom-bottom" data-aos="zoom-in-right"  className=' ps-2 leading-normal '>Front End web Developer</p>
+                            <p  data-aos-anchor-placement="bottom-bottom" data-aos="zoom-in-right"  className=' ps-2 leading-normal '>Back End web Developer</p>
+                            <p  data-aos-anchor-placement="bottom-bottom" data-aos="zoom-in-right"  className=' ps-2 leading-normal '>Full stack web Developer</p>
 
                             <h5 className='text-xl mt-3 mb-1   md:text-2xl text-blue-700  dark:text-yellow-200'>Qualification </h5>
                             <ul className='px-2 leading-[1.3]'>

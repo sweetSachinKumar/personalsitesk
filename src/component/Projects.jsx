@@ -35,7 +35,7 @@ const Projects = () => {
 
             </div>
             {/* row 2  */}
-            <div className='flex items-center justify-center flex-wrap pt-6 space-y-12  lg:space-y-0 md:space-x-6  '>
+            <div id='reactPojs' className='flex items-center justify-center flex-wrap pt-6 space-y-12  lg:space-y-0 md:space-x-6  '>
                 {/* box  */}
                     {
                         myProjectVid.map(proj => {
