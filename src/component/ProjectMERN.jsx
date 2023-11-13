@@ -28,10 +28,19 @@ const ProjectMERN = () => {
 
                     </div>
                     <div className=' flex-1 h-full w-full '>
-                        <div className="mx-auto mt-5 h-full w-[90%] p-4">
-                            <div className="flex flex-col sm:flex-row">
-                                <h3 className="mb-1 text-base font-bold text-slate-700 dark:text-slate-200 sm:w-[66%] text-justify">This is e-comerce website. Fully responsive with all functionality. where you can add to cart and remove to cart after login or singin because without any token no one can some main functionality.</h3>
-                                {/* <!-- Row 1 --> */}
+                        <div className="mx-auto mt-5 h-full w-[90%] py-4 px-2">
+                            <div className="flex flex-col space-y-1 sm:flex-row">
+                                <div className=' w-full'>
+                                <h3 className=" text-base font-semibold text-slate-700 dark:text-slate-200 ">This is e-comerce website.
+                                 Fully responsive with all functionality for both user and vender. </h3>
+                                <h4 className=" text-base font-bold text-slate-700 dark:text-slate-200 sm:w-[66%] ">user </h4>
+                                <p className='dark:text-slate-200'>First user have to login or sign up for add product in cart and after this user can also process to order any no. of product.</p>
+                                <h4 className=" text-base font-bold text-slate-700 dark:text-slate-200 sm:w-[66%] ">vender </h4>
+                                <p className='dark:text-slate-200'>Vender have to login with email <small>(sachinstore@gmail.com)</small> and password <small>(sachin)</small> then goto account and then click on go to admin and then vender can see dashbord. </p>
+                                <p className='dark:text-slate-200'>for more information i have create a video, you can watch this. </p>
+
+                                </div>
+                                {/* <!-- Row 2 --> */}
                                 <div className="sm:ps-5 ps-2 sm:mt-2 sm:ms-3">
                                     <h5 className="my-2 text-xl font-bold text-neutral-800 dark:text-neutral-100">Languages <span className="text-xs sm:text-base">I use in website</span> </h5>
                                     <div className="pb-2 ps-3">

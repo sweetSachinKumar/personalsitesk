@@ -32,9 +32,9 @@ useEffect(()=>{
                                         <>
                                             <div key={i+2000} >
                                              
-                                                <p className='flex space-x-2 items-center'> <span className='text-xl md:text-2xl' style={{color:tech.iconColor}}  >{tech.icon}</span> <span> {tech.lang} </span>  </p>
+                                                <p className='flex space-x-2 items-center'> <span className=' text-xl lg:text-2xl' style={{color:tech.iconColor}}  >{tech.icon}</span> <span className='text-xs sm:text-base md:text-xl lg:text-2xl' > {tech.lang} </span>  </p>
 
-                                                <div className="flex-start flex h-4 w-full overflow-hidden rounded border-2 border-gray-400 font-sans  text-xs font-medium">
+                                                <div className="flex-start flex sm:h-4 h-3 w-full overflow-hidden rounded border-2 border-gray-400 font-sans  text-xs font-medium">
                                                     <div  data-aos="zoom-in-right" data-aos-anchor-placement="bottom-bottom"
                                                         className="flex h-full items-baseline justify-center overflow-hidden break-all   text-indigo-800"
                                                         style={{ width: tech.complited, background: tech.bgColor }}
@@ -54,18 +54,18 @@ useEffect(()=>{
                         {/* left  */}
                         <div className='h-full w-full mt-4 md:mt-0 md:pl-8 text-neutral-800  dark:text-slate-200'>
                             <h5 className='text-xl mt-3 mb-1   md:text-2xl text-blue-700  dark:text-yellow-200'>Skills </h5>
-                            <p  data-aos-anchor-placement="bottom-bottom" data-aos="zoom-in-right"  className=' ps-2 leading-normal '>Front End web Developer</p>
-                            <p  data-aos-anchor-placement="bottom-bottom" data-aos="zoom-in-right"  className=' ps-2 leading-normal '>Back End web Developer</p>
-                            <p  data-aos-anchor-placement="bottom-bottom" data-aos="zoom-in-right"  className=' ps-2 leading-normal '>Full stack web Developer</p>
+                            <p  data-aos-anchor-placement="bottom-bottom" data-aos="zoom-in-right"  className=' text-xs sm:text-base ps-2 leading-normal '>Front End web Developer</p>
+                            <p  data-aos-anchor-placement="bottom- text-xs sm:text-base" data-aos="zoom-in-right"  className='text-xs sm:text-base ps-2 leading-normal '>Back End web Developer</p>
+                            <p  data-aos-anchor-placement="bottom-bottom" data-aos="zoom-in-right"  className='text-xs sm:text-base ps-2 leading-normal '>Full stack web Developer</p>
 
                             <h5 className='text-xl mt-3 mb-1   md:text-2xl text-blue-700  dark:text-yellow-200'>Qualification </h5>
-                            <ul className='px-2 leading-[1.3]'>
-                                <li data-aos-anchor-placement="bottom-bottom" data-aos="zoom-in-right"  >12th pass</li>
-                                <li data-aos-anchor-placement="bottom-bottom" data-aos="zoom-in-right" data-aos-duration="2200" >Pursuing BCA in 1st Year</li>
+                            <ul className='px-2 text-xs sm:text-base leading-[1.3]'>
+                                <li data-aos-anchor-placement="bottom-bottom" data-aos="zoom-in-right text-xs sm:text-base text-xs sm:text-base"  >12th pass</li>
+                                <li data-aos-anchor-placement="bottom-bottom" data-aos="zoom-in-right text-xs sm:text-base" data-aos-duration="2200" >Pursuing BCA in 1st Year</li>
                             </ul>
 
                             <h5 className='text-xl mt-3 mb-1  md:text-2xl text-blue-700  dark:text-yellow-200 '>Experince </h5>
-                            <p   data-aos="zoom-in-right" data-aos-anchor-placement="bottom-bottom" className=' ps-2 leading-normal  '>I am fresher</p>
+                            <p   data-aos="zoom-in-right" data-aos-anchor-placement="bottom-bottom" className=' ps-2 leading-normal text-xs sm:text-base '>I am fresher</p>
 
 
                         </div>

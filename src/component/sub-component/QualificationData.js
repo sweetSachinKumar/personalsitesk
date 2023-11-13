@@ -43,7 +43,7 @@ const languageData = [
         complited: "52%",
         bgColor: "repeating-linear-gradient(45deg, rgb(22 104 13), rgb(16 215 0) 11px)",
         icon: <DiNodejsSmall/>,
-        iconColor: "rgb(56 179 3)4"
+        iconColor: "#61e315"
     },
     {
         lang: "MongoDB and mongoose",
